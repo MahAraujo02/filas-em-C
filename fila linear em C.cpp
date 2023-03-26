@@ -15,10 +15,9 @@ void enqueue(int x){
 		printf("\nvalor inserido com sucesso\n");	
 	}
 	else{
-		if (primeiro != 0)
-			ultimo = 0;
+		printf("\n valor nao inserido\n");
 	}
-	printf("\n valor nao inserido\n");
+
 }
 
 int dequeue(){
